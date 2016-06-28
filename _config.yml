@@ -4,8 +4,8 @@
 # Site settings
 title: Packman
 subtitle: An End-to-End Software Packaging Platform
-description: |
-  An End-to-End Software Packaging Platform
+description: > # this means to ignore newlines until "baseurl:"
+      An End-to-End Software Packaging Platform;deb;rpm;linux;packages;automation
 owner: Packman # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: info@packman.io
